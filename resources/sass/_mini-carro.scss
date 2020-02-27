@@ -1,0 +1,82 @@
+
+.lighter-text {color: #ABB0BE;}
+
+
+.shopping-cart {margin: 20px 0; background: white; width: 350px; position: fixed; border-radius: 3px;z-index: 999;right: 0;bottom: 0;border-radius: 20px;display:none;-webkit-box-shadow: -20px 0px 40px -20px rgba(0,0,0,0.5);-moz-box-shadow: -20px 0px 40px -20px rgba(0,0,0,0.5);box-shadow: -20px 0px 40px -20px rgba(0,0,0,0.5);
+    ::-webkit-scrollbar-track{background-color: #F5F5F5;}
+    ::-webkit-scrollbar{width: 8px;background-color: #F5F5F5;}
+    ::-webkit-scrollbar-thumb{background-color: #C0CAD5;border-radius: 5px;}
+    .shopping-cart-header {border: 1px solid #C0CAD5;border-radius: 20px 20px 0 0;height: 70px;display: flex;justify-content: space-between;align-items: center;
+    div{width: 100%;padding: 0 15px;
+        p{font-size: 18px;color: #516784;font-weight: 500;margin-bottom: 0px;}
+        .mini-carro{display: flex;justify-content: center;align-items: center;
+            img{width: 15px;}
+        }
+    }
+  }
+  .shopping-cart-items {background: #F5F5F5;border: 1px solid #C0CAD5;border-top: 0px;list-style: none; margin-bottom: 0px;padding-inline-start: 0px;max-height: 315px;overflow-x: hidden;overflow-y: scroll;
+    li {padding: 10px 15px;
+        .d-flex{border-bottom: 1px solid #D8DFE6;padding-bottom: 1rem;
+            .centrar-img{height: 120px;min-width: 85px;max-width: 85px;background-color: #fff;border-radius: 10px;border: 1px solid #D8DFE6;
+                img{height: 75px;width: auto;max-width: 70px;}
+            }
+        }
+    }
+    .modulo-carrito{padding: 0 10px;width:100%;
+        .item-name {font-size: 14px;font-weight: 500;color: #1f1f1f;
+            .item-price {color: #516784;}
+        }
+    }
+        .contador-carro{display:flex;justify-content: space-between;align-items: center;margin-top: .5rem;}
+        .cantidad{width: 115px;height: 40px;border: 1px solid #516784;border-radius: 30px;display: flex;justify-content: space-between;align-items: center;padding: 0 0.4rem;
+            .count, .quantity-minicarro {color: #516784;background-color: #f4f4f4;border:none;display: inline-block;vertical-align: top;font-size: 13px;font-weight: 500;line-height: 30px;padding: 0 2px;min-width: 60px;text-align: center;}
+            .plus, .minus, .q-plus, .q-minus{cursor: pointer;display: flex;justify-content: center; align-items: center;color: #516784; background-color:#DBDDE0;width: 20px;height: 20px;font-size: 23px;text-align: center;border-radius: 100%;}
+            .minus:hover, .q-minus:hover{background-color: #DBDDE0 !important;}
+            .plus:hover, .q-plus:hover{background-color: #DBDDE0 !important;}
+            span{-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;}
+            input{width: -webkit-fill-available;max-width: 50%;text-align: center;background: #f4f4f4;}
+            input:focus {outline: -webkit-focus-ring-color auto 0n px;}
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button { -webkit-appearance: none;margin: 0;}
+            input:disabled{background-color:transparent;}
+        }
+    }  
+}
+
+.cart-icon {color: #515783;font-size: 24px;margin-right: 7px;float: left;}
+
+.shopping-cart-footer{display: flex;justify-content: space-between; align-items: center;padding: 10px 15px;
+    p{margin-bottom: 0px;font-size: 11px;color: #A0AAB7;font-weight: 500;
+        span{font-size: 21px;color: #516784;}
+    }
+    .btn-carrito {color:#fff;border-radius: 25px;background: #0063C4;width: 150px;height: 40px;margin: 0;padding: 0;display: flex;justify-content: space-around;align-items: center;font-size: 14px;font-weight: 500;
+        img{width: 18px;}
+    }
+}
+
+.clearfix:after {content: "";display: table;clear: both;}
+
+@media (max-width: 480px){
+    .shopping-cart{width: 250px;
+        .shopping-cart-header{height: 50px;
+            div{padding: 0 10px;
+                p{font-size: 13px;}
+            }
+        }
+        .shopping-cart-items{padding: 0px;max-height: 225px;
+            .cantidad{width: 100px;height: 33px;
+                .count{min-width: 40px;}
+            }
+            li{padding: 0 10px 5px 10px;
+                .centrar-img{display: none;}
+            }
+            .modulo-carrito{padding: 0px;
+                .item-name{font-size: 12px;}
+            }
+        }
+        .shopping-cart-footer{padding: 5px 10px;
+            .btn-carrito{width: 115px;font-size: 12px;height: 35px;}
+        }
+    }
+
+}

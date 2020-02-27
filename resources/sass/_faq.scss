@@ -1,0 +1,21 @@
+.borde-azul{border-left: 4px solid #0063C4;height: 55px;padding-left: 0px!important;padding-right: 0px!important;margin: 60px 0 30px;
+    hr{border-top: 1px solid #C0CAD5;margin-top: 0rem;margin-bottom: 0.3rem;}
+    .titulo-faq{font-size: 17px; font-weight: 500; color: #1F1F1F;padding:15px;}
+}
+.contenedor-faq { position:relative; background-color: #fff;
+    .accordion{
+        &:first-child{border-top: 1px solid #A8B3C1 !important;}
+        .card{border: 0px;border-bottom: 1px solid #A8B3C1!important;
+            .card-header{border: 0px;background: #fff;min-height: 55px;padding: 0px;margin-bottom: 0px!important;
+                h2{min-height: 55px;}
+                button{width: 100%;padding: 0;font-size: 15px;font-weight: 500;color: #1f1f1f;display: -webkit-box;display: flex;-webkit-box-pack: start;justify-content: flex-start;-webkit-box-align: center;align-items: center;-webkit-transition: all 0.2s ease;transition: all 0.2s ease;
+                    &:hover,&:active,&:focus{text-decoration: none;}
+                    span {margin-left: 2rem;display: flex; align-items: center; min-height: 55px;}
+                }
+                .icono- {background-position: left;background-image: url('../images/down.png');background-repeat: no-repeat;background-size: 10px;}
+                .icono-1 {background-position: left;background-image: url('../images/up.png');background-repeat: no-repeat;background-size: 10px;color: #0063C4;}
+            }
+            .card-body{padding: 1rem 0 3rem!important;} 
+        }
+    }
+}

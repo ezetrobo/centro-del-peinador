@@ -1,0 +1,2 @@
+rm -fr bootstrap/cache/*
+php artisan cache:clear
