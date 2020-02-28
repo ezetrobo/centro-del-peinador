@@ -4,18 +4,18 @@ Proyecto ecommerce (en desarrollo), realizado con Laravel 5.
 
 Para poder iniciar el proyecto en local realizar:
 
--composer update
+    -composer update
 
--php artisan serve
+    -php artisan serve
 
 
 Para compilar
 
--npm install
+    -npm install
 
--npm run watch
+    -npm run watch
 
 
 Para compilar para produccion
 
--npm run production
+    -npm run production
