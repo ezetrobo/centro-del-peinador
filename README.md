@@ -1,4 +1,4 @@
-# centro-del-peinador
+# Centro del Peinador
 Proyecto ecommerce (en desarrollo), realizado con Laravel 5.
 
 Para poder iniciar el proyecto en local realizar:
