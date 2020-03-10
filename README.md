@@ -1,5 +1,5 @@
 # Centro del Peinador
-Proyecto ecommerce (en desarrollo), realizado con Laravel 5.
+Proyecto ecommerce (en desarrollo), realizado con Laravel 5 el backend lo realizo un Dev PHP
 
 
 Para poder iniciar el proyecto en local realizar:
